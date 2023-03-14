@@ -50,8 +50,10 @@ npm start:backend
 
 ### Run Backend and Frontend Together
 
+From the root directory, run the following command:
+
 ```bash
-npm start:dev
+npm start
 ```
 
 ## License
