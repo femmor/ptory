@@ -2,7 +2,7 @@
 
 ## Technologies Used
 
-Frontend - HTML, CSS, JavaScript, ReactJS, React Router, React Hooks, React Toastify, React Icons and many more. <br />
+Frontend - HTML, CSS, JavaScript, ReactJS (Bootstrapped with Vite for speed), React Router, React Hooks, React Toastify, React Icons and many more. <br />
 Backend - NodeJS, ExpressJS, MongoDB, Mongoose, Bcrypt, JWT, and many more. <br />
 State management - Redux Toolkit for managing the state of the application. <br />
 Image Storage - Cloudinary for storing the client side images. <br />

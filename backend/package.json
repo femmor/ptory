@@ -2,12 +2,24 @@
   "name": "ptory-backend",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "start:backend": "nodemon server.js"
+    "start:backend": "nodemon server.js",
+    "start": "concurrently npm:start:*"
   },
   "keywords": [],
   "author": "Emmanuel Egomson",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.21"
+  }
 }
