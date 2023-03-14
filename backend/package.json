@@ -1,0 +1,13 @@
+{
+  "name": "ptory-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:backend": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Emmanuel Egomson",
+  "license": "ISC"
+}
